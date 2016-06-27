@@ -1,0 +1,2 @@
+samtools view -bS Flowcell_B_6_Novel_ACAN_exon.sam > Flowcell_B_6_Novel_ACAN_exon.bam
+samtools view -h -o out.sam in.bam

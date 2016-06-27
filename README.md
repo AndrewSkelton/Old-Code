@@ -1,1 +1,3 @@
 # Old-Code
+A repository of old code that is not written is the most optimal way, but I may need the jist of it down the line!
+Not quite a graveyard... 

@@ -1,0 +1,207 @@
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_1 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_1.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_1.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_1
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_2 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_2.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_2.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_2
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_3 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_3.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_3.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_3
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_4 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_4.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_4.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_4
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_5 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_5.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_5.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_5
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_6 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_6.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_6.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_6
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_7 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_7.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_7.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_7
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OA_Flowcell_A_8 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_A_8.bam
+baiUrlTemplate = /ensembl_data/Flowcell_A_8.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FA_8
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_1 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_1.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_1.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_1
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_2 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_2.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_2.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_2
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_3 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_3.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_3.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_3
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_4 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_4.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_4.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_4
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_5 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_5.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_5.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_5
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_6 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_6.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_6.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_6
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_7 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_7.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_7.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_7
+
+# make a section for the new track called tracks.(unique name)
+[ tracks.NOF_OB_Flowcell_B_8 ]
+
+# settings for what data is shown in the track
+storeClass     = JBrowse/Store/SeqFeature/BAM
+urlTemplate    = /ensembl_data/Flowcell_B_8.bam
+baiUrlTemplate = /ensembl_data/Flowcell_B_8.bam.bai
+
+# settings for how the track looks
+category = NGS   #< category for this track
+type = JBrowse/View/Track/Alignments2
+key  = BAM alignments from NOF OA FB_8

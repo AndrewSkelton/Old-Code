@@ -1,0 +1,65 @@
+<html>
+  <script language="javascript" src="http://www.biodalliance.org/release-0.11/dalliance-compiled.js"></script>
+  <script language="javascript">
+    new Browser({
+      chr:          '22',
+      viewStart:    30000000,
+      viewEnd:      30030000,
+      cookieKey:    'human',
+
+      sources:     [{name:                 'Genome',
+                     uri:                  'http://www.derkholm.net:8080/das/hg18comp/',
+                     tier_type:            'sequence',
+                     provides_entrypoints: true},
+
+                    {name:                 'Genes',
+                     desc:                 'Gene structures from Ensembl 54',
+                     uri:                  'http://www.derkholm.net:8080/das/hsa_54_36p/',
+                     collapseSuperGroups:  true,
+                     provides_karyotype:   true,
+                     provides_search:      true},
+
+                    {name:                 'Repeats',
+                     desc:                 'Repeat annotation from Ensembl 59',
+                     bwgURI:               'http://www.biodalliance.org/datasets/repeats.bb',
+                     stylesheet_uri:       'http://www.biodalliance.org/stylesheets/bb-repeats.xml'},
+
+                    {name:                 'MeDIP raw',
+                     uri:                  'http://www.derkholm.net:8080/das/medipseq_reads'},
+
+                    {name:                 'MeDIP-seq',
+                     uri:                  'http://www.ebi.ac.uk/das-srv/genomicdas/das/batman_seq_SP/'},
+
+                    {name:                 'NOF OA BB',
+                     desc:                 'Gene structures NOF and OA Samples',
+                     bwgURI:               'http://bsu-srv.ncl.ac.uk/dall/gencode.bb',
+                     /*stylesheet_uri:       'http://www.biodalliance.org/stylesheets/gencode.xml',*/
+                     collapseSuperGroups:   true
+                     /*trixURI:              'http://www.biodalliance.org/datasets/geneIndex.ix'*/
+                   }
+                     /*http://bsu-srv.ncl.ac.uk/dall/data/
+                    {name: 'Genes_2',
+                     desc: 'Gene structures from GENCODE 19',
+                     bwgURI: 'http://www.biodalliance.org/datasets/gencode.bb',
+                     stylesheet_uri: 'http://www.biodalliance.org/stylesheets/gencode.xml',
+                     collapseSuperGroups: true,
+                     trixURI: 'http://www.biodalliance.org/datasets/geneIndex.ix'
+                   },*/
+                   ],
+
+      searchEndpoint: new DASSource('http://www.derkholm.net:8080/das/hsa_54_36p/'),
+      browserLinks: {
+          Ensembl: 'http://ncbi36.ensembl.org/Homo_sapiens/Location/View?r=${chr}:${start}-${end}',
+          UCSC: 'http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg18&position=chr${chr}:${start}-${end}',
+      },
+
+      uiPrefix: 'http://www.biodalliance.org/release-0.11/',
+
+      cookieKey: 'human-embed-demo',
+      disablePoweredBy: true,
+      noTitle: true
+    });
+  </script>
+
+  <div id="svgHolder" style='margin-left: 5%; margin-right: 5%; border-width: 1px; border-style: solid; border-color: #ccc; border-radius: 4px; padding: 10px'></div>
+</html>

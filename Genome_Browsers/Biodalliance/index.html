@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- meta name="viewport" content="width=device-width, initial-scale=1.0" -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href='syntax.css' rel='stylesheet'>
+    <!-- link href="../assets/css/bootstrap-responsive.css" rel="stylesheet" -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script language="javascript" src="//www.biodalliance.org/release-0.11/dalliance-compiled.js"></script>
+  </head>
+
+  <body>
+
+  <script language="javascript" src="http://www.biodalliance.org/release-0.11/dalliance-compiled.js"></script>
+  <script language="javascript">
+      new Browser({
+        chr:          '22',
+        viewStart:    30000000,
+        viewEnd:      30030000,
+        cookieKey:    'human',
+
+        coordSystem: {
+          speciesName: 'Human',
+          taxon: 9606,
+          auth: 'NCBI',
+          version: '36',
+          ucscName: 'hg18'
+        },
+
+        sources:     [{name:                 'Genome',
+                       uri:                  'http://www.derkholm.net:8080/das/hg18comp/',
+                       tier_type:            'sequence',
+                       provides_entrypoints: true},
+                      {name:                 'Genes',
+                       desc:                 'Gene structures from Ensembl 54',
+                       uri:                  'http://www.derkholm.net:8080/das/hsa_54_36p/',
+                       collapseSuperGroups:  true,
+                       provides_karyotype:   true,
+                       provides_search:      true},
+                      {name:                 'Repeats',
+                       uri:                  'http://www.derkholm.net:8080/das/hsa_54_36p/',
+                       stylesheet_uri:       'http://www.derkholm.net/dalliance-test/stylesheets/ens-repeats.xml'},
+                      {name:                 'MeDIP raw',
+                       uri:                  'http://www.derkholm.net:8080/das/medipseq_reads'},
+                      {name:                 'MeDIP-seq',
+                       uri:                  'http://www.ebi.ac.uk/das-srv/genomicdas/das/batman_seq_SP/'}]
+      });
+    </script>
+
+    <div id="svgHolder" style='margin-left: 5%; margin-right: 5%; border-width: 1px; border-style: solid; border-color: #ccc; border-radius: 4px; padding: 10px'></div>
+    <!--<div id="svgHolder"></div>-->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster-->
+
+    <script src="bootstrap-without-jquery.js"></script>
+  </body>
+</html>

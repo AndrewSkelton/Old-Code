@@ -1,0 +1,2 @@
+genomeCoverageBed -split -bg -ibam Flowcell_B_6_ACAN_full.bam -g hg19.chrom.sizes > Flowcell_B_6_ACAN_full.bedgraph
+

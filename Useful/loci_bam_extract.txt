@@ -1,0 +1,2 @@
+samtools view -h -o Flowcell_B_2_Novel_ACAN_exon.sam Flowcell_B_2.bam chr15:89411447-89411560
+
